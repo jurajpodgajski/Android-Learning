@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ponavljanje 1</string>
+    <string name="ime_i_prezime">Ime i Prezime</string>
+    <string name="registracija">Registracija</string>
+    <string name="oib">OIB</string>
+    <string name="proizvodac">Proizvođač</string>
+    <string name="registriraj">registriraj</string>
+    <string name="odustani">odustani</string>
+    <string name="uspijesna_registracija">Uspiješna Registracija!</string>
+</resources>

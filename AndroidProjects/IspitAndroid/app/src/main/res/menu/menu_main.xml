@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/miLand"
+        android:icon="@drawable/ic_flight_land_black_24dp"
+        android:title="Land"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/miTakeoff"
+        android:icon="@drawable/ic_flight_takeoff_black_24dp"
+        android:title="Takeoff"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/miHttp"
+        android:icon="@drawable/ic_http_black_24dp"
+        android:title="HTTP"
+        app:showAsAction="always" />
+    <group>
+        <item
+            android:id="@+id/miFaces"
+            android:icon="@drawable/ic_tag_faces_black_24dp"
+            android:title="Faces"
+            app:showAsAction="ifRoom|withText" />
+        <item
+            android:id="@+id/miTimer"
+            android:icon="@drawable/ic_timer_black_24dp"
+            android:title="Timer"
+            app:showAsAction="ifRoom" />
+    </group>
+</menu>

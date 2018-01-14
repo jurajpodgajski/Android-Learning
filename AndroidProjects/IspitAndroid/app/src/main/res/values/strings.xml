@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">IspitAndroid</string>
+    <string name="ime">IME</string>
+    <string name="prezime">PREZIME</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="cancel">Cancel</string>
+    <string name="register">Register</string>
+    <string name="registracija_uspje_na">Registracija Uspješna!</string>
+    <string name="ime2">IME:</string>
+    <string name="prezime2">PREZIME:</string>
+    <string name="email2">EMAIL:</string>
+    <string name="password2">PASSWORD:</string>
+</resources>

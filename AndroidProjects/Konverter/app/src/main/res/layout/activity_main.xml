@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="juraj.podgajski.com.konverter.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unesi iznos u kunama: " />
+
+    <EditText
+        android:id="@+id/etUnos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbEur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EUR" />
+
+        <RadioButton
+            android:id="@+id/rbUsd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USD" />
+
+        <RadioButton
+            android:id="@+id/rbGbp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GBP" />
+
+        <RadioButton
+            android:id="@+id/rbKm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KM" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bIzracunaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Izracunaj" />
+
+    <TextView
+        android:id="@+id/tvRezultat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp" />
+
+</LinearLayout>

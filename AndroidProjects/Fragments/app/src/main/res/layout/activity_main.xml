@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="juraj.podgajski.com.fragments.MainActivity">
+
+    <EditText
+        android:id="@+id/etInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unesi ime" />
+
+    <fragment
+        android:id="@+id/fFirst"
+        android:name="juraj.podgajski.com.fragments.FirstFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_first" />
+
+    <fragment
+        android:id="@+id/fSecond"
+        android:name="juraj.podgajski.com.fragments.SecondFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_second" />
+
+    <Button
+        android:id="@+id/bThird"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Third" />
+
+    <FrameLayout
+        android:id="@+id/frameContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

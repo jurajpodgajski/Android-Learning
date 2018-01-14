@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="nickname"
+        android:title="Unesite nadimak"
+        android:summary="Molimo unesite nadimak."
+        />
+
+    <ListPreference
+        android:key="color"
+        android:title="Odaberite boju pozadine"
+        android:summary="Ovdje birate boju pozadine."
+        android:entries="@array/colorArray"
+        android:entryValues="@array/colorIndexes"
+        android:defaultValue="1"
+        />
+
+    <CheckBoxPreference
+        android:key="sound"
+        android:title="Zvuk ON/OFF"
+        android:summary="Da li zelite mutirati?"
+        />
+
+</PreferenceScreen>

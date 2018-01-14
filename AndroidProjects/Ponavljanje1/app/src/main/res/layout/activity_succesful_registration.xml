@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="juraj.podgajski.com.ponavljanje1.SuccesfulRegistrationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/uspijesna_registracija"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/tvImeIPrezime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ime_i_prezime"
+        android:paddingTop="20dp"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvOib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/oib"
+        android:paddingTop="20dp"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvRegistracija"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/registracija"
+        android:paddingTop="20dp"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvProizvodac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/proizvodac"
+        android:paddingTop="20dp"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+
+</LinearLayout>

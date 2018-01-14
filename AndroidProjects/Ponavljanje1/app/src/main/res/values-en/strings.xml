@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practice 1</string>
+    <string name="ime_i_prezime">First name and Last Name</string>
+    <string name="odustani">Clear</string>
+    <string name="oib">PIN</string>
+    <string name="proizvodac">Manufacturer</string>
+    <string name="registracija">Registration</string>
+    <string name="registriraj">Register</string>
+    <string name="uspijesna_registracija">Registration Successful!</string>
+</resources>

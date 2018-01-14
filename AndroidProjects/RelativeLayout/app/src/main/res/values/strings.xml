@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Relative Layout</string>
+    <string name="textRaikonnen">Raikonnen</string>
+    <string name="alonso">Alonso</string>
+    <string name="massa">Massa</string>
+    <string name="barrichello">Barrichello</string>
+    <string name="jenson_button">Jenson Button</string>
+    <string name="text_3">Text 3</string>
+    <string name="text_2">Text 2</string>
+    <string name="text_1">Text 1</string>
+</resources>

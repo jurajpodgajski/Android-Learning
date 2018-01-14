@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Settings</string>
+
+    <string-array name="colorArray">
+        <item>Zelena</item>
+        <item>Crvena</item>
+        <item>Plava</item>
+    </string-array>
+    <string-array name="colorIndexes">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

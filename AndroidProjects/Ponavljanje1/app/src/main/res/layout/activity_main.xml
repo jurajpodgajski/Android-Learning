@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="juraj.podgajski.com.ponavljanje1.MainActivity">
+
+    <EditText
+        android:id="@+id/etImeIPrezime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ime_i_prezime"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/etRegistracija"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/registracija"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/etOib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/oib"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/etProizvodac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/proizvodac"
+        android:textAlignment="center" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/bRegistriraj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/registriraj" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/bOdustani"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/odustani" />
+
+</LinearLayout>

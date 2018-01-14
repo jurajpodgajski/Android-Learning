@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/colored_ballon1"
+        android:duration="350" />
+    <item
+        android:drawable="@drawable/colored_ballon2"
+        android:duration="350" />
+    <item
+        android:drawable="@drawable/colored_ballon3"
+        android:duration="350" />
+    <item
+        android:drawable="@drawable/colored_ballon4"
+        android:duration="350" />
+    <item
+        android:drawable="@drawable/colored_ballon5"
+        android:duration="350" />
+    <item
+        android:drawable="@drawable/colored_ballon6"
+        android:duration="350" />
+    <item
+        android:drawable="@drawable/colored_ballon7"
+        android:duration="350" />
+    <item
+        android:drawable="@drawable/colored_ballon8"
+        android:duration="350" />
+
+</animation-list>

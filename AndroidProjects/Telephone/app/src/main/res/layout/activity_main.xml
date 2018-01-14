@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="juraj.podgajski.com.telephone.MainActivity">
+
+    <EditText
+        android:id="@+id/etNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:elevation="25dp"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/etText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="6" />
+
+    <Button
+        android:id="@+id/bPrepareSms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="prepare sms" />
+
+    <Button
+        android:id="@+id/bSendSms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send sms" />
+
+    <Button
+        android:id="@+id/bDial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dial" />
+
+    <Button
+        android:id="@+id/bCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="call" />
+
+</LinearLayout>
